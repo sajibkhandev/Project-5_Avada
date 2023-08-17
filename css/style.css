@@ -1,0 +1,563 @@
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+.button {
+  padding: 19px 51px;
+  background: #ff9600;
+  border-radius: 4px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  transition: 0.4s;
+  display: inline-block;
+}
+.button i {
+  margin-left: 5px;
+}
+.button:hover {
+  background: #fff;
+  color: #000;
+}
+.title h3 {
+  font-family: "Yellowtail", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  color: #14b9f1;
+  margin-bottom: 10px;
+}
+.title h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+
+  color: #222222;
+  margin-bottom: 62px;
+  position: relative;
+}
+.title h2::after {
+  content: "";
+  position: absolute;
+  bottom: -31px;
+  left: 0;
+  width: 80px;
+  height: 2px;
+  background-color: #a0a0a0;
+}
+.title p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 590px;
+  color: #222222;
+  margin-bottom: 40px;
+}
+/* =============
+navber part start 
+=============== */
+nav {
+  position: absolute !important;
+  width: 100%;
+  top: 20px;
+  left: 0;
+  z-index: 1;
+}
+nav .navbar-nav {
+  column-gap: 35px;
+}
+nav .navbar-nav li .nav-link {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+nav .navbar-nav li .nav-link i {
+  margin-left: 5px;
+}
+nav .navbar-nav li:hover .nav-link {
+  color: #ff9600;
+}
+
+/* =============
+navber part end 
+=============== */
+/* =============
+banner part start 
+=============== */
+.banner {
+  background: url("../images/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-top: 291px;
+  padding-bottom: 156px;
+  position: relative;
+}
+.banner h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+  width: 819px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+.banner .button {
+  margin: 0 10px;
+}
+.banner img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* =============
+banner part end 
+=============== */
+/* =============
+adventure part start 
+=============== */
+.adventure {
+  margin-top: 100px;
+  margin-bottom: 203px;
+}
+.adventure ul i {
+  margin-right: 23px;
+}
+.adventure ul li {
+  margin-bottom: 30px;
+}
+.adventure .button {
+  margin-top: 10px;
+  border: 1px solid #ff9600;
+}
+.adventure img {
+  margin-right: 8px;
+}
+.adventure .item {
+  background: #fff4e5 url("../images/adventer3.png");
+  text-align: center;
+  padding: 40px 84px;
+
+  margin-top: 125px;
+}
+.adventure .item h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #222222;
+}
+.adventure .item p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222222;
+  width: auto;
+}
+.adventure .item2 {
+  background: #e7fde9 url("../images/adventer3.png");
+  padding: 40px 63px !important;
+}
+.adventure .item2 p {
+  width: 186px;
+}
+
+.adventure .item3 {
+  background: #f2f2fd url("../images/adventer3.png");
+}
+.adventure .item4 {
+  background: #fdf1f5 url("../images/adventer3.png");
+}
+/* =============
+adventure part end 
+=============== */
+/* =============
+sports part end 
+=============== */
+.sports {
+  background-color: #0c3543;
+  position: relative;
+  padding-top: 102px;
+}
+.sports .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+}
+.sports .title h3 {
+  color: #ff9600;
+}
+.sports .title h2 {
+  color: #fff;
+  margin-bottom: 93px;
+}
+.sports .box p {
+  width: 638px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.sports .card {
+  background-color: #0f4152;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sports .card h5 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.sports .card p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.sports h4 {
+  text-align: center;
+  font-family: "Arizonia", cursive;
+  font-size: 160px;
+
+  color: #fff;
+  padding-top: 86px;
+  padding-bottom: 102px;
+}
+.sports .img1 {
+  width: 100%;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+}
+.sports .img2 {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* =============
+sports part end 
+=============== */
+/* =============
+service part start 
+=============== */
+.service {
+  background: #ff9600;
+  transform: translateY(-10px);
+  overflow: hidden;
+}
+.service .title3 {
+  text-align: center;
+}
+.service .img1 {
+  padding-top: 110px;
+}
+.service h4 {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0 auto;
+  font-size: 54px;
+  width: 1294px;
+  color: #fff;
+  padding-top: 26px;
+  padding-bottom: 46px;
+}
+.service h6 {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0 auto;
+  font-size: 30px;
+  width: 669px;
+  color: #fff;
+  padding-bottom: 60px;
+}
+.service .button1 {
+  background-color: #0c3543;
+}
+.service .button1:hover {
+  background-color: #fff;
+}
+.service .button2 {
+  border: 1px solid #ffffff;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.service .button2 i {
+  margin-right: 10px;
+}
+.service .mainbox img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.service .mainbox .imgfolder {
+  position: relative;
+  top: 90px;
+  transition: 0.4s;
+}
+.service .mainbox .imgfolder:hover {
+  top: 20px;
+}
+.service .mainbox .overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #000);
+  padding: 221px 65px 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+.service .mainbox .overley h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 19px;
+}
+.service .mainbox .overley h5 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 69px;
+  position: relative;
+}
+.service .mainbox .overley p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #a0a0a0;
+  margin-bottom: 34px;
+}
+.service .mainbox .overley p i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 15px;
+}
+.service .mainbox .overley h5::after {
+  width: 285px;
+  height: 2px;
+  background: #717171;
+  position: absolute;
+  top: 69px;
+  left: 0;
+  content: "";
+}
+
+/* =============
+service part end 
+=============== */
+/* =============
+about part start 
+=============== */
+.about {
+  text-align: center;
+  margin-top: 192px;
+  margin-bottom: 54px;
+}
+.about .title h2 {
+  position: relative;
+}
+.about .title h2::after {
+  content: "";
+  position: absolute;
+  bottom: -26px;
+  left: 795px;
+  width: 80px;
+  height: 1px;
+  background-color: #717171;
+}
+.about .item {
+  text-align: center;
+}
+.about .item h5 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
+  color: #222222;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 56px;
+  width: 290px;
+}
+.about .item p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  color: #222222;
+  font-weight: 400;
+  width: 275px;
+}
+/* =============
+about part end 
+=============== */
+/* =============
+contact part start 
+=============== */
+.contact {
+  background: #f7f7f7;
+  padding-bottom: 128px;
+  padding-top: 100px;
+}
+.contact .title h3 {
+  color: #ff9600;
+}
+.contact .title h2 {
+  margin-bottom: 100px;
+}
+.contact .box {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.contact .box p {
+  width: 638px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+.contact .card {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+.contact .card::after {
+  content: "";
+  bottom: 100px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+}
+.contact .card h5 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 28px;
+  color: #222222;
+  font-weight: 700;
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 343px;
+}
+.contact .card p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  color: #222222;
+  font-weight: 400;
+
+  margin: 0 auto;
+  width: 365px;
+  margin-bottom: 75px;
+  position: relative;
+}
+
+.contact .card a {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff9600;
+  transition: 0.4s;
+  padding-bottom: 20px !important;
+  display: inline-block;
+}
+/* =============
+contact part end 
+=============== */
+/* =============
+sponser part start 
+=============== */
+.sponser {
+  margin: 100px 0;
+}
+/* =============
+sponser part end 
+=============== */
+/* =============
+footer part start 
+=============== */
+.footer {
+  background: #0c3543;
+}
+
+.footer .imgone {
+  position: relative;
+}
+.footer .imgone img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 169%;
+}
+.footer .maincard {
+  padding: 80px 110px;
+  position: relative;
+}
+.footer .maincard::after {
+  content: "";
+  width: 736px;
+  height: 1px;
+  position: absolute;
+  top: 340px;
+  left: 110px;
+  background-color: #c4c4c4;
+}
+.footer .maincard img {
+  width: 252px;
+  height: 75px;
+  margin-bottom: 40px;
+}
+.footer .maincard p {
+  color: #ffffff;
+  width: 559px;
+}
+.footer .maincard h5 {
+  margin-top: 155px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 157px;
+  position: relative;
+}
+.footer .maincard h5::before {
+  width: 50px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  content: "";
+}
+
+.footer ul {
+  width: 354px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 155px;
+}
+.footer ul li {
+  margin-bottom: 26px;
+}
+.footer .button {
+  padding: 19px 40px;
+}
+
+/* =============
+footer part end 
+=============== */
